@@ -1,0 +1,11 @@
+import { App, Stack, StackProps } from "aws-cdk-lib";
+
+export interface AwsStackProps extends StackProps {
+    stackProp: string;
+}
+
+export class AwsStack extends Stack {
+    constructor(scope: App, id: string, props: AwsStackProps) {
+        super(scope, id, props);
+    }
+}
