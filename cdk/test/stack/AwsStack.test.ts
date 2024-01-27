@@ -1,6 +1,9 @@
-// describe('Sample Describe', () => {
+import { describe, it, expect } from '@jest/globals'
 
-//     it('Sample It', () => {
-//         expect(true).toBeTruthy();
-//     });
-// });
+describe('Sample Describe', () => {
+
+    it('Sample It', () => {
+        console.log("Test Case Works?");
+        expect(true).toBeTruthy();
+    });
+});
