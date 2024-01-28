@@ -1,8 +1,8 @@
 import { describe, it, expect } from '@jest/globals';
 
-describe('Sample Stack', () => {
+describe('Sample App', () => {
 
     it('Sample it', () => {
-        console.log("Stack Test Worked!");
+        console.log('App Test Worked!');
     });
 });
