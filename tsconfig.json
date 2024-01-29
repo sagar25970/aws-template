@@ -21,8 +21,7 @@
     "experimentalDecorators": true,
     "strictPropertyInitialization": false,
     "typeRoots": [
-      "./node_modules/@types",
-      "./node_modules/@jest"
+      "./node_modules/@types"
     ]
   },
   "exclude": [
