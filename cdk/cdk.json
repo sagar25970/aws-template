@@ -16,16 +16,17 @@
             "test"
         ]
     },
+    "nameSpace": "demo",
     "context": {
         "stage": {
             "dev": {
-                "testProperty": "dev-test-property"
+                "environment": "dev"
             },
             "staging": {
-                "testProperty": "staging-test-property"
+                "environment": "staging"
             },
             "production": {
-                "testProperty": "production-test-property"
+                "environment": "production"
             }
         }
     }
